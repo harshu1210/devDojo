@@ -3,3 +3,7 @@ devDojo-UI/README.md
 devDojo-UI/.vscode/extensions.json
 devDojo-UI/.vscode/launch.json
 devDojo-UI/.vscode/tasks.json
+devDojo-Backend/.gitattributes
+devDojo-Backend/.gitignore
+devdojobackend/.gitattributes
+devdojobackend/.gitignore
