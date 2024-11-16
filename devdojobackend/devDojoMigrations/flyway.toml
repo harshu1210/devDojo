@@ -1,0 +1,27 @@
+databaseType = "PostgreSql"
+id = "4c4a43a1-e270-4998-a89e-1c75da0e9759"
+name = "devDojoMigrations"
+
+[flyway]
+locations = [ "filesystem:migrations" ]
+mixed = true
+outOfOrder = true
+schemaModelLocation = "schema-model"
+validateMigrationNaming = true
+
+  [flyway.check]
+  majorTolerance = 0
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[redgateCompare.postgresql.options.ignores]
+ignoreNewlinesInTextObjects = "off"
+
+[environments.develop]
+url = "jdbc:postgresql://localhost:5432/devdojo"
+schemas = [ "public" ]
