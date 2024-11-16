@@ -7,3 +7,5 @@ devDojo-Backend/.gitattributes
 devDojo-Backend/.gitignore
 devdojobackend/.gitattributes
 devdojobackend/.gitignore
+.DS_Store
+devdojobackend/devDojoMigrations/.gitignore
