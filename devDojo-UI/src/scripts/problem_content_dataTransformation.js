@@ -11,7 +11,6 @@ async function fetchData() {
     const response = await axios.get(problem);
     return response.data; // Return the response data directly
   } catch (error) {
-    console.error('Error fetching data:', error);
     return []; // Return empty array in case of error
   }
 }
@@ -21,32 +20,27 @@ fetchData().then(problemData => {
 
   const result = [];
 
-    let min = 0;
-    let maxValue = problemData.length;
-    while (min < maxValue) {
-        let max = min + 10;
-        if (max > maxValue) {
-            max = maxValue; // For the last element, make sure the max value is 1446
-        }
-        result.push({min:min, max:max});
-        min = max; // Set min to max for the next iteration
+  let min = 0;
+  let maxValue = problemData.length;
+  while (min < maxValue) {
+    let max = min + 10;
+    if (max > maxValue) {
+      max = maxValue; // For the last element, make sure the max value is 1446
     }
-    console.log(result.length)
-    console.log(process.argv[2])
-  // for(let j=0;j<result.length;j++){
-    for (let i = result[process.argv[2]].min; i < result[process.argv[2]].max; i++) { // Ensure you iterate over the whole problemData array
-      console.log(problemData[i])
+    result.push({ min: min, max: max });
+    min = max; // Set min to max for the next iteration
+  }
+  for (let j = 0; j < result.length; j++) {
+    for (let i = result[j].min; i < result[j].max; i++) { // Ensure you iterate over the whole problemData array
       getProblemContent(problemData[i].devDojoLink, problemData[i].pid);
     }
-  // }
+  }
 });
 
 async function createProblemData(data) {
   try {
     const response = await axios.post(problemContentApi, data);
-    console.log("Data posted successfully:", response.data);
   } catch (error) {
-    console.error("Error posting data:", error.response ? error.response.data : error.message);
   }
 }
 
@@ -150,11 +144,9 @@ async function getProblemContent(link, id) {
       content: JSON.stringify(content)
     };
 
-    console.log(problemContent);
     // Post the problem content data immediately
     await createProblemData(problemContent); // Ensure data is sent to the server after it's prepared
   } catch (error) {
-    console.error("Error extracting problem content:", error);
   } finally {
     // Quit the browser
     await driver.quit();
