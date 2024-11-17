@@ -41,7 +41,7 @@ public class ProblemController {
     }
 
     @PostMapping("/array")
-    public ResponseEntity<List<Problem>> createFirms(@RequestBody Problem[] problems) {
+    public ResponseEntity<List<Problem>> createProblems(@RequestBody Problem[] problems) {
         if (problems == null || problems.length == 0) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST); // Handle empty input
         }
