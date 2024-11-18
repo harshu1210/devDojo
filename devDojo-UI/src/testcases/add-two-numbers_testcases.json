@@ -1,0 +1,5918 @@
+[
+  {
+    "testcaseid": 0,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 1,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 1,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 7,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 2,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 1,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 3,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 0,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 4,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 5,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 8,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 6,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 4,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 2,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 7,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 8,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 9,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 10,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 3,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 11,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 12,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 2,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 13,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 7,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 9,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 14,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 15,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 6,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 6,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 1,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 16,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 2,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 4,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 17,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 9,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 18,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 8,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 1,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 19,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 3,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 9,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 1,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 20,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 4,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 21,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 7,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 22,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 8,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 7,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 5,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 23,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 1,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 24,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 6,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 9,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 5,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 25,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 2,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 1,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 26,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 2,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 27,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 8,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 6,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 7,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 28,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 3,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 1,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 9,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 29,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 5,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 7,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 30,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 6,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 31,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 4,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 32,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 3,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 7,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 6,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 0,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 33,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 9,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 34,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 1,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 5,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 0,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 35,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 1,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 3,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 36,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 6,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 9,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 37,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 7,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 38,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 39,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 2,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 40,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 41,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 6,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 7,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 3,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 42,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 4,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 43,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 6,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 9,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 44,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 45,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 46,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 3,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 47,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 8,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 4,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 48,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 1,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 4,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 7,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 2,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 6,
+      "next": {
+        "value": 4,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 8,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 49,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 50,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 7,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 6,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 8,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 5,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 51,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 7,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 8,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 1,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 52,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 9,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 6,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 3,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 1,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 1,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 8,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 2,
+                      "next": {
+                        "value": 2,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 53,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 3,
+              "next": {
+                "value": 5,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 1,
+        "next": {
+          "value": 9,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 2,
+      "next": {
+        "value": 6,
+        "next": {
+          "value": 2,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 6,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 54,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 0,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 2,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 5,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 9,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 8,
+      "next": {
+        "value": 2,
+        "next": {
+          "value": 8,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 7,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 6,
+                  "next": {
+                    "value": 0,
+                    "next": {
+                      "value": 5,
+                      "next": {
+                        "value": 5,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 55,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 5,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 7,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 0,
+                "next": {
+                  "value": 8,
+                  "next": {
+                    "value": 5,
+                    "next": {
+                      "value": 1,
+                      "next": {
+                        "value": 1,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 9,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 9,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 2,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 3,
+      "next": {
+        "value": 3,
+        "next": {
+          "value": 5,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 56,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 6,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 0,
+            "next": {
+              "value": 0,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 8,
+                      "next": {
+                        "value": 9,
+                        "next": {
+                          "value": 6,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 4,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 6,
+            "next": {
+              "value": 4,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 5,
+                  "next": {
+                    "value": 6,
+                    "next": {
+                      "value": 6,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 3,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 1,
+      "next": {
+        "value": 0,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 5,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 7,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 4,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 0,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 57,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 4,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 4,
+                "next": {
+                  "value": 3,
+                  "next": {
+                    "value": 7,
+                    "next": {
+                      "value": 7,
+                      "next": {
+                        "value": 3,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 0,
+        "next": {
+          "value": 6,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 5,
+              "next": {
+                "value": 8,
+                "next": {
+                  "value": 4,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 5,
+                        "next": {
+                          "value": 0,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 0,
+      "next": {
+        "value": 9,
+        "next": {
+          "value": 0,
+          "next": {
+            "value": 9,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 3,
+                "next": {
+                  "value": 2,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 9,
+                      "next": {
+                        "value": 4,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "testcaseid": 58,
+    "testcase": 2,
+    "input": [
+      {
+        "value": 1,
+        "next": {
+          "value": 3,
+          "next": {
+            "value": 8,
+            "next": {
+              "value": 2,
+              "next": {
+                "value": 2,
+                "next": {
+                  "value": 7,
+                  "next": {
+                    "value": 3,
+                    "next": {
+                      "value": 0,
+                      "next": {
+                        "value": 7,
+                        "next": {
+                          "value": 7,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "value": 2,
+        "next": {
+          "value": 1,
+          "next": {
+            "value": 4,
+            "next": {
+              "value": 6,
+              "next": {
+                "value": 9,
+                "next": {
+                  "value": 0,
+                  "next": {
+                    "value": 8,
+                    "next": {
+                      "value": 3,
+                      "next": {
+                        "value": 8,
+                        "next": {
+                          "value": 1,
+                          "next": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "output": {
+      "value": 9,
+      "next": {
+        "value": 5,
+        "next": {
+          "value": 4,
+          "next": {
+            "value": 1,
+            "next": {
+              "value": 8,
+              "next": {
+                "value": 1,
+                "next": {
+                  "value": 9,
+                  "next": {
+                    "value": 2,
+                    "next": {
+                      "value": 4,
+                      "next": {
+                        "value": 3,
+                        "next": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
